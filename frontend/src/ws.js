@@ -1,5 +1,5 @@
-import { io } from 'socket.io-client';
+import { io } from "socket.io-client";
 
 export function connectWS() {
-    return io('http://localhost:4600');
+  return io("https://real-time-chat-0f38.onrender.com");
 }
