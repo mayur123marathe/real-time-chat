@@ -115,7 +115,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-zinc-100 p-4 font-inter">
+    <div className="min-h-screen flex  justify-center bg-zinc-100 p-4 font-inter">
       {/* ENTER YOUR NAME TO START CHATTING */}
       {showNamePopup && (
         <div className="fixed inset-0 flex items-center justify-center z-40">
@@ -147,11 +147,11 @@ export default function App() {
 
       {/* CHAT WINDOW */}
       {!showNamePopup && (
-        <div className="w-full max-w-2xl h-[80vh] bg-white rounded-xl shadow-md flex flex-col overflow-hidden">
+        <div className="w-full max-w-2xl h-[90vh] bg-white rounded-xl shadow-md flex flex-col overflow-hidden">
           {/* CHAT HEADER */}
           <div className="flex items-center gap-3 px-4 py-3 border-b border-gray-200">
             <div className="h-10 w-10 rounded-full bg-[#075E54] flex items-center justify-center text-white font-semibold">
-              R
+              CUG
             </div>
             <div className="flex-1">
               <div className="text-sm font-medium text-[#303030]">
